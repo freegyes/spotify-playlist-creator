@@ -26,11 +26,9 @@ spotifyApi
     // Set the access token on the API object so that it's used in all future requests
     spotifyApi.setAccessToken(data.body['access_token']);
 
-    // Get the most popular tracks by David Bowie in Great Britain
     return spotifyApi.getArtistTopTracks('05lIUgmmsmTX2N9dCKc8rC', 'US');
   })
   .then(function(data) {
-    console.log('The most popular tracks for David Bowie is..');
     console.log('Drum roll..');
     console.log('...');
 
