@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.nyc_output/
+coverage/
+
+# dotenv
+.env
+
+# IDEs and text editors
+*.sublime*
+*.iml
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.vim
+*.bak
+*.orig
+*.old
+
+# Logs
+logs
+*.log
+*.log.*
