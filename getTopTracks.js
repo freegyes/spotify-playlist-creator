@@ -32,12 +32,6 @@ spotifyApi
     console.log('Drum roll..');
     console.log('...');
 
-    /*
-     * 1. Space Oddity - 2009 Digital Remaster (popularity is 51)
-     * 2. Heroes - 1999 Digital Remaster (popularity is 33)
-     * 3. Let's Dance - 1999 Digital Remaster (popularity is 20)
-     * 4. ...
-    */
     data.body.tracks.forEach(function(track, index) {
       console.log(
         index +
